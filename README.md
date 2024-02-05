@@ -29,6 +29,7 @@ Please implement the found member functions in the SLList class template:
 2. Implement  **geti()** member function 
 3. Implement **removeFirst()** member function
 4. Implement **removeLast()**  member function
+5. Implement **insertAt()** member function
 
 ## Submission 
 
