@@ -14,6 +14,8 @@ int main()
   // randomly add SIZE ints to the array nums, and the SLList L 
   int nums[SIZE];
   srand(time(0)); // setting the seed for rand()
+
+  //fill nums array from back to front, and insert same num to L
   for (int i = SIZE - 1; i >= 0; i--) {
     nums[i] = rand() % 20 + 1; // generating random numbers by rand()
     L.addFirst(nums[i]);
