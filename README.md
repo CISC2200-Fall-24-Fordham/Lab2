@@ -26,7 +26,7 @@ The class template **SLList** as studied in the class is defined in the **SLList
 Please implement the following member functions, **iteratively (i.e., without using recursion)** in the **SLList.h**. The pseudocode for these 
 linked list manipulation will be discussed in class. 
 
-0. (Optional but helpful for debuggin) Add a member function **display()** to display to the terminal the items stored in the list.
+0. (Optional but helpful for debugging) Add a member function **display()** to display to the terminal the items stored in the list.
 1. Implement the copy constructor, note that you need to perform deep-copy 
 2. Implement  **geti()** member function 
 3. Implement **removeFirst()** member function
