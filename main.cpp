@@ -67,7 +67,7 @@ int main()
 
    //test insertAt
    L.insertAt (30,2);
-   if (L.get(2)!=30))
+   if (L.get(2)!=30)
 	   cout <<"failed insertAt testcase #1\n";
    if (L.size()!=SIZE)
 	   cout <<"Wrong size after insertAt case #1\n";
