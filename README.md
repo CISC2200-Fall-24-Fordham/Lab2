@@ -23,7 +23,8 @@ If you haven't done so already, please set up programming environment our our ow
 
 The class template **SLList** as studied in the class is defined in the **SLList.h** provided.
 
-Please implement the found member functions in the SLList class template: 
+Please implement the following member functions, **iteratively (i.e., without using recursion)** in the **SLList.h**. The pseudocode for these 
+linked list manipulation will be discussed in class. 
 
 1. Implement the copy constructor, note that you need to perform deep-copy 
 2. Implement  **geti()** member function 
