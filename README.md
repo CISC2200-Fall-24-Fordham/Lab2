@@ -33,10 +33,24 @@ linked list manipulation will be discussed in class.
 4. Implement **removeLast()**  member function
 5. Implement **insertAt()** member function
 
+## Hints
+
+The **main.cpp** provided in this repository tests the above member functions and checks to see if the returned value or the list is changed as 
+expected by the function. 
+
+You can modify the file anyway you wish 
+in order to test your member functions. You should take an incremental approach: 
+
+1. Implement the **display()** method to help examining the content of the list
+2. Build a list using **addFirst**, **addLast** methods that are provided (and therefore bug free). Display the resulting list. 
+3. Implement the required member functions one at time, test and debug it on the list you built, before moving on to work on the next function.
+
 
 ## Submission 
 
-Submit your program at the following link by Feb 13, 2024, midnight (11:59pm)
+Submit your **SLList.h** file at the following link by Feb 13, 2024, midnight (11:59pm). The autograder compiles and tests your programs using 
+some testcases that are different from those in **main.cpp**. If your program fails some testcases, go back to review your code, and test your member functions
+with different inputs.
 
 [lab2 submission link
-](https://storm.cis.fordham.edu:8443/web/project/1485)https://storm.cis.fordham.edu:8443/web/project/1485
+](https://storm.cis.fordham.edu:8443/web/project/1485)
