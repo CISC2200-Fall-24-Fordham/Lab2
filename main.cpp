@@ -64,5 +64,19 @@ int main()
      cout <<"failed removeFirst testcase: size is wrong\n";
   if (nums[5] != L.get(5))
      cout <<"failed removeFirst testcase: get(5) gives wrong result\n";
+
+   //test insertAt
+   L.insertAt (30,2);
+   if (L.get(2)!=30))
+	   cout <<"failed insertAt testcase #1\n";
+   if (L.size()!=SIZE)
+	   cout <<"Wrong size after insertAt case #1\n";
+
+   L.insertAt (100,0);
+   if (L.get(0)!=100)
+	   cout <<"failed insertAt testcase #2\n";
+   if (L.size()!=SIZE+1)
+	   cout <<"Wrong size after insertAt testcase #2\n";
+   
  
 }
