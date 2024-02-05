@@ -24,7 +24,7 @@ int main()
   {
       cout <<"failed get(0)\n";
   } 
-  if (L.get(SIZE - 1) == nums[SIZE - 1])
+  if (L.get(SIZE - 1) != nums[SIZE - 1])
   {
       cout <<"failed get(last)\n";
   }
@@ -34,10 +34,12 @@ int main()
 
   if (L.size() != K->size() || 
      K->get(0) != nums[0] || 
-     K->get(SIZE - 1) == nums[SIZE - 1])
+     K->get(SIZE - 1) != nums[SIZE - 1])
   {
       cout <<"failed copy constructor test\n";
   }
+  else
+	  cout <<"passed copy constructor test\n";
 
 
   delete K; // this should not also delete L
