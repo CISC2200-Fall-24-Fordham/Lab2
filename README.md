@@ -7,7 +7,7 @@ and **understanding testcases**.
 
 From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
 ```
-[git clone https://github.com/CISC2200-Spring2024/lab2.git]
+git clone https://github.com/CISC2200-Spring2024/lab2.git
 ```
 
 ## Programming Environment Setup
