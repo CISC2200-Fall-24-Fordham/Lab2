@@ -1,8 +1,14 @@
 # CISC2200 Spring 2024 Lab2
 
 In this lab assignment, we practice **working with linked list**, **working with class template**,
-and **writing testcases**.
+and **understanding testcases**.
 
+## Download starter code
+
+From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
+```
+[git clone https://github.com/CISC2200-Spring2024/lab2.git]
+```
 
 ## Programming Environment Setup
 If you haven't done so already, please set up programming environment our our own computer, by following [Setup Tutorial](https://eecs280staff.github.io/tutorials/). 
@@ -13,17 +19,16 @@ If you haven't done so already, please set up programming environment our our ow
 
 **Please follow these tutorials closely and carefully.**
 
-## Programming Requirement
+## Requirements
 
-A code skeleton is given for this lab. From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
-```
-[git clone https://github.com/CISC2200-Spring2024/lab2.git]
-```
-You are asked to finish the following (i.e., the three Todo's in the IntArray.cpp), test and run the program:
+The class template **SLList** as studied in the class is defined in the **SLList.h** provided.
 
-1. Implement the IntArray class's constructor
-2. Implement the desstructor 
-3. Implement the reverse member function
+Please implement the found member functions in the SLList class template: 
+
+1. Implement the copy constructor, note that you need to perform deep-copy 
+2. Implement  **geti()** member function 
+3. Implement **removeFirst()** member function
+4. Implement **removeLast()**  member function
 
 ## Submission 
 
