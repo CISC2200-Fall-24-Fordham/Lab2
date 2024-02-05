@@ -67,8 +67,10 @@ public:
     p->next = new Node<ItemType>(x, nullptr);
   }
 
+
   inline SLList(const SLList<ItemType> &other);
   inline ItemType &get(int i) const;
+  inline void insertAt (ItemType x, int pos);
   inline ItemType removeFirst();
   inline ItemType removeLast();
 };
@@ -90,10 +92,23 @@ SLList<ItemType>::SLList(const SLList<ItemType> &other) {
  * @param i index of item
  * @return ItemType& the i-th item
  */
-template <typename ItemType> ItemType &SLList<ItemType>::get(int i) const {
+template <typename ItemType> ItemType &SLList<ItemType>::get(int i) const 
+{
   // TODO:
   ItemType a; //These two lines are here to avoid compilation error
   return a;
+}
+
+/**
+ *  Add a new Itemtype of valeu x into the list at the i-th item in list. Index starts from 0.
+ *  For simplicity, assume the list containts at least i number of items.
+ * @param x new item to into the list 
+ * @param i index for the new item
+ */
+template <typename ItemType> void SLList<ItemType>::insertAt(ItemType x, int i) 
+{
+  // TODO:
+ 
 }
 
 /**
