@@ -1,11 +1,11 @@
 # CISC2200 Spring 2024 Lab2
 
-In this lab assignment, we setup our **programming environment**, **modify given code**,
-and **practice submitting to autograder system**.
+In this lab assignment, we practice **working with linked list**, **working with class template**,
+and **writing testcases**.
 
 
 ## Programming Environment Setup
-We will set up programming environment our our own computer, by following [Setup Tutorial](https://eecs280staff.github.io/tutorials/). 
+If you haven't done so already, please set up programming environment our our own computer, by following [Setup Tutorial](https://eecs280staff.github.io/tutorials/). 
 
 - The _Commannd Line Tools_ are required. 
 
@@ -17,7 +17,7 @@ We will set up programming environment our our own computer, by following [Setup
 
 A code skeleton is given for this lab. From your terminal (mac or WSL/Ubunto) window, you can use the following command to download it:
 ```
-git clone https://github.com/CISC2200-Spring2024/lab1.git
+[git clone https://github.com/CISC2200-Spring2024/lab2.git]
 ```
 You are asked to finish the following (i.e., the three Todo's in the IntArray.cpp), test and run the program:
 
