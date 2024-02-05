@@ -38,4 +38,5 @@ linked list manipulation will be discussed in class.
 
 Submit your program at the following link by Feb 13, 2024, midnight (11:59pm)
 
-Link to be added... 
+[lab2 submission link
+](https://storm.cis.fordham.edu:8443/web/project/1485)https://storm.cis.fordham.edu:8443/web/project/1485
