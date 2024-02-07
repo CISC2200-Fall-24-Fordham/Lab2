@@ -53,7 +53,7 @@ It subsequently checks if the two lists have same size or not, and whether the l
           cout <<"passed copy constructor test\n";
 ```
 
-You can modify the file anyway you wish 
+You can modify the file **main.cpp** anyway you wish 
 in order to test your member functions. You should take an incremental approach: 
 
 1. Implement the **display()** method to help examining the content of the list
