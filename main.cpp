@@ -49,11 +49,8 @@ int main()
   //test "removeFirst" 
   if ( nums[0] != L.removeFirst() )
      cout <<"failed removeFirst testcase\n";
-  
   if ((SIZE - 1) != L.size())
      cout <<"failed removeFirst testcase: size is wrong\n";
-
-  
   if (nums[5] != L.get(4))
   {
      cout <<"failed removeFirst testcase: get(4) gives wrong result\n";
@@ -62,11 +59,9 @@ int main()
   //test "removeLast"
   if ( nums[SIZE - 1] != L.removeLast())
      cout <<"failed removeFirst testcase\n";
-	
-
-  if ((SIZE - 1) != L.size())
+  if ((SIZE - 2) != L.size())
      cout <<"failed removeFirst testcase: size is wrong\n";
-  if (nums[5] != L.get(5))
+  if (nums[5] != L.get(4))
      cout <<"failed removeFirst testcase: get(5) gives wrong result\n";
 
    //test insertAt
