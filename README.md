@@ -27,12 +27,12 @@ Please implement the following member functions, **iteratively (i.e., without us
 linked list manipulation will be discussed in class. 
 
 0. (Optional but helpful for debugging) Add a member function **display()** to display to the terminal the items stored in the list.
-1. Implement the copy constructor, note that you need to perform deep-copy 
-2. Implement  **geti()** member function 
+1. Implement  **geti()** member function 
 3. Implement **removeFirst()** member function
 4. Implement **removeLast()**  member function
 5. Implement **insertAt()** member function
-
+6. Implement the copy constructor, note that you need to perform deep-copy
+   
 ## Hints
 
 The **main.cpp** provided in this repository tests the above member functions and checks to see if the returned value or the list is changed as 
@@ -57,7 +57,7 @@ You can modify the file **main.cpp** anyway you wish
 in order to test your member functions. You should take an incremental approach: 
 
 1. Implement the **display()** method to help examining the content of the list
-2. Build a list using **addFirst**, **addLast** methods that are provided (and therefore bug free). Display the resulting list. 
+2. Build a short list using **addFirst**, **addLast** methods that are provided (and therefore bug-free). Display the resulting list. 
 3. Implement the required member functions one at time, test and debug it on the list you built, before moving on to work on the next function.
 
 
